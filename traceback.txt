@@ -1,0 +1,20 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 417, in script
+    c "Wahh adek-adek ke pasar mau beli apa nih?"
+Exception: Sayer c is not a function or string.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 417, in script
+    c "Wahh adek-adek ke pasar mau beli apa nih?"
+  File "renpy/ast.py", line 692, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer c is not a function or string.
+
+Windows-10-10.0.18362
+Ren'Py 7.4.4.1439
+Math In Daily Life 1.0
+Sun May 16 12:56:19 2021
